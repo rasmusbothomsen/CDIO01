@@ -1,2 +1,0 @@
-# CDIO01
-CDIO del 1
