@@ -13,10 +13,8 @@ public class Terningspil {
         Player player2 = new Player(scan.nextLine());
         Dice dice = new Dice();
         dice.getDice();
-        System.out.println("Man vinder ved at opnå 40 point, ved at slå to ens får vedkommende en ekstra tur.");
-//regler
-        System.out.println("Man vinder ved at opnå 40 point og efterfølgende slå to ens ved at slå to ens får vedkommende en ekstra tur.");
-        System.out.println("Ved slag af to en'ere mister vedkommende alle deres point - dog gælder ovenstående stadig.");
+
+        regler();
         is40(player1);
 
 
@@ -30,8 +28,11 @@ public class Terningspil {
         if (a.getPoint()<40) return false;
         else return true;
     }
-
-
+    private static void regler() {
+        System.out.println("Man vinder ved at opnå 40 point og efterfølgende slå to ens.");
+        System.out.println("Når man slår to ens får vedkommende en ekstra tur");
+        System.out.println("Ved slag af to en'ere mister vedkommende alle deres point - dog gælder ovenstående stadig.");
+    }
 
 
 
