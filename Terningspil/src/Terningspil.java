@@ -11,7 +11,7 @@ public class Terningspil {
         Player player1 = new Player(scan.nextLine());
         System.out.print("Spiller 2 indtast dit navn: ");
         Player player2 = new Player(scan.nextLine());
-
+//regler
         System.out.println("Man vinder ved at opnå 40 point, ved at slå to ens får vedkommende en ekstra tur.");
         System.out.println("Ved slag af to en'ere mister vedkommende alle deres point - dog gælder ovenstående stadig.");
 
