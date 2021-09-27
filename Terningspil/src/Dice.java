@@ -5,7 +5,7 @@ public class Dice {
     private int dice1;
     private int dice2;
 
-    public int[] getDice1() {
+    public int[] getDice() {
         this.dice1 = dice.nextInt(6) + 1;
         this.dice2 = dice.nextInt(6) + 1;
         return new int[]{dice1, dice2};
