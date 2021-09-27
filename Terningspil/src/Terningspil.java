@@ -11,7 +11,7 @@ public class Terningspil {
         Player player1 = new Player(scan.nextLine());
         System.out.print("Spiller 2 indtast dit navn: ");
         Player player2 = new Player(scan.nextLine());
-
+        System.out.println("Man vinder ved at opnå 40 point");
 
 
 
@@ -20,8 +20,6 @@ public class Terningspil {
     }
     private static void startgame(){
         System.out.println("Velkommen til terningespillet");
-        System.out.println("Man vinder ved at opnå 40 point");
-
 
     }
 
