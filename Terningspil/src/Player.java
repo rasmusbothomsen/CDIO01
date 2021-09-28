@@ -4,6 +4,7 @@
         private int point;
 
 
+
         public int getPoint() {
         return point;
     }

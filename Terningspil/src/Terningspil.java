@@ -3,8 +3,11 @@ import java.util.Scanner;
 
 
 public class Terningspil {
+private static boolean is40;
+private static Scanner scan =new Scanner(System.in);
 
     public static void main(String[] args) {
+        is40=false;
         startgame();
         Scanner scan = new Scanner(System.in);
         System.out.print("Spiller 1 indtast dit navn: ");
@@ -14,10 +17,18 @@ public class Terningspil {
         Dice dice = new Dice();
         dice.getDice();
 
-        regler();
-        is40(player1);
+    }
+
+    private static void startgame() {
+        System.out.println("Velkommen til terningespillet");
 
     }
+
+    private static void is40(Player a) {
+        if (a.getPoint() < 40) is40=false;
+        else is40=true;
+    }
+
 
     private static void regler() {
         System.out.println("  ");
@@ -30,23 +41,7 @@ public class Terningspil {
     }
 
 
-    private static void startgame() {
-        System.out.println("Velkommen til terningespillet");
 
-    }
 
-    private static boolean is40(Player a) {
-        if (a.getPoint() < 40) return false;
-        else true;
-    }
 
-    //Demo flow start
-
-    private static boolean toEndGame(Player a) {
-        if ;
-        else return true;
-
-        //Demo flow slut
-
-    }
 }
