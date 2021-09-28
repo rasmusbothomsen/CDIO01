@@ -34,7 +34,7 @@ public class Terningspil {
     //Demo flow start
 
     private static boolean toEndGame(Player a){
-        if ;
+        if;
         else return true;
 
     //Demo flow slut
