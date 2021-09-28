@@ -18,26 +18,7 @@ public class Terningspil {
         is40(player1);
 
 
-
-
-
     }
-    private static void startgame(){
-        System.out.println("Velkommen til terningespillet");
-
-    }
-    private static boolean is40(Player a){
-        if (a.getPoint()<40) return false;
-        else true;
-    }
-
-    //Demo flow start
-
-    private static boolean toEndGame(Player a){
-        if;
-        else return true;
-
-    //Demo flow slut
 
     private static void regler() {
         System.out.println("  ");
@@ -51,6 +32,22 @@ public class Terningspil {
 
 
 
+    private static void startgame() {
+        System.out.println("Velkommen til terningespillet");
 
+    }
 
-}
+    private static boolean is40(Player a) {
+        if (a.getPoint() < 40) return false;
+        else true;
+    }
+
+    //Demo flow start
+
+    private static boolean toEndGame(Player a) {
+        if;
+        else return true;
+
+        //Demo flow slut
+
+    }
