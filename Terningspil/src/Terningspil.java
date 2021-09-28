@@ -40,9 +40,13 @@ public class Terningspil {
     //Demo flow slut
 
     private static void regler() {
-        System.out.println("Man vinder ved at opnå 40 point og efterfølgende slå to ens.");
+        System.out.println("  ");
+        System.out.println("Man vinder ved at opnå 40 point og efterfølgende slå to ens");
         System.out.println("Når man slår to ens får vedkommende en ekstra tur");
-        System.out.println("Ved slag af to en'ere mister vedkommende alle deres point - dog gælder ovenstående stadig.");
+        System.out.println("Ved slag af to 1'ere mister vedkommende alle deres point - dog gælder ovenstående stadig");
+        System.out.println("Det er også muligt at vinde ved at slå to 6'ere lige efter hinanden");
+        System.out.println("Hvis man slår to 1'ere efter man har rundet de 40 point starter man forfra");
+        System.out.println("  ");
     }
 
 
