@@ -1,13 +1,12 @@
 import java.util.Scanner;
 
 
-
 public class Terningspil {
-private static boolean is40;
-private static Scanner scan =new Scanner(System.in);
+    private static boolean is40;
+    private static Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {
-        is40=false;
+        is40 = false;
         startgame();
         Scanner scan = new Scanner(System.in);
         System.out.print("Spiller 1 indtast dit navn: ");
@@ -17,7 +16,7 @@ private static Scanner scan =new Scanner(System.in);
         Dice dice = new Dice();
         dice.getDice();
 
-regler();
+        regler();
 
     }
 
@@ -27,23 +26,24 @@ regler();
     }
 
     private static void is40(Player a) {
-        if (a.getPoint() < 40) is40=false;
-        else is40=true;
+        if (a.getPoint() < 40) is40 = false;
+        else is40 = true;
     }
 
 
     private static void regler() {
-        System.out.println("  ");
+        System.out.println("---------------------------------------------------------------------------------------------");
         System.out.println("Man vinder ved at opnå 40 point og efterfølgende slå to ens");
         System.out.println("Når man slår to ens får vedkommende en ekstra tur");
         System.out.println("Ved slag af to 1'ere mister vedkommende alle deres point - dog gælder ovenstående stadig");
         System.out.println("Det er også muligt at vinde ved at slå to 6'ere lige efter hinanden");
         System.out.println("Hvis man slår to 1'ere efter man har rundet de 40 point starter man forfra");
-        System.out.println("  ");
+        System.out.println("---------------------------------------------------------------------------------------------");
+
     }
-
-
-
-
-
 }
+
+
+
+
+
