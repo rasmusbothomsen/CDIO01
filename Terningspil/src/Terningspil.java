@@ -7,7 +7,6 @@ private static boolean is40;
 private static boolean endOfGame;
 private static Scanner scan =new Scanner(System.in);
 
-
     public static void main(String[] args) {
         is40=false;
         startgame();
