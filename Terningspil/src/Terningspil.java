@@ -17,7 +17,6 @@ public class Terningspil {
         regler();
         is40(player1);
 
-
     }
 
     private static void regler() {
