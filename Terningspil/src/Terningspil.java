@@ -17,6 +17,8 @@ private static Scanner scan =new Scanner(System.in);
         Dice dice = new Dice();
         dice.getDice();
 
+regler();
+
     }
 
     private static void startgame() {
