@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
 
-
 public class Terningspil {
 private static boolean is40;
 private static Scanner scan =new Scanner(System.in);
+
 
     public static void main(String[] args) {
         is40=false;
@@ -23,6 +23,8 @@ regler();
 
     private static void startgame() {
         System.out.println("Velkommen til terningespillet");
+
+
 
     }
 
