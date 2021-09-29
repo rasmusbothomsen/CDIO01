@@ -2,7 +2,7 @@ import java.util.Random;
 
 public class Dice {
     public int[] get;
-    private Random dice = new Random();
+    Random dice = new Random();
 
 
     public int[] getDice() {

@@ -11,13 +11,14 @@ private static Scanner scan =new Scanner(System.in);
         startgame();
         Scanner scan = new Scanner(System.in);
         System.out.print("Spiller 1 indtast dit navn: ");
-        Player player1 = new Player(scan.nextLine());
+        String playerName1 = scan.nextLine();
+        Player player1 = new Player(playerName1,1);
         System.out.print("Spiller 2 indtast dit navn: ");
-        Player player2 = new Player(scan.nextLine());
+        String playerName2= scan.nextLine();
+        Player player2 = new Player(playerName2,2);
         Dice dice = new Dice();
         dice.getDice();
-
-regler();
+        regler();
 
     }
 
@@ -43,6 +44,46 @@ regler();
         System.out.println("Hvis man slår to 1'ere efter man har rundet de 40 point starter man forfra");
         System.out.println("--------------------------------------------------------------------------------------------");
     }
+
+
+
+    // definerer spillerscore
+    int playerScore1 = 0;
+    int playerScore2 = 0;
+
+
+
+public static void pressToPlay(Player player){
+    boolean isPressed=false;
+    while(!isPressed) {
+        if (player.getPlayerNumber() == 1) {
+            System.out.println(player.getName() + ", Tryk 1 for at kaste");
+            if(scan.nextInt()==1){
+                isPressed=true;
+            }
+        } else isPressed=false;
+        if (player.getPlayerNumber() == 2) {
+            System.out.println(player.getName() + ", Tryk 2 for at kaste");
+            if(scan.nextInt()==2){
+                isPressed=true;
+            }
+            else isPressed=false;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

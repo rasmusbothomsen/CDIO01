@@ -3,6 +3,12 @@
         private String name;
         private int point;
 
+        public int getPlayerNumber() {
+            return playerNumber;
+        }
+
+        private int playerNumber;
+
 
 
         public int getPoint() {
@@ -21,8 +27,9 @@
     }
 
 
-    public Player(String name){
+    public Player(String name,int playerNumber){
         this.name=name;
+        this.playerNumber=playerNumber;
         this.point=0;
     }
 }
