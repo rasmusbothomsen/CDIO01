@@ -22,8 +22,6 @@ private static Scanner scan =new Scanner(System.in);
         Player player2 = new Player(playerName2,2);
         Dice dice = new Dice();
 
-        player2.setPoint(37);
-        player1.setPoint(37);
         while (!endgame){
             if(player1.getPoint()<40) {
                 playTurn(player1, dice);
@@ -31,14 +29,23 @@ private static Scanner scan =new Scanner(System.in);
             if(player1Won&&!endgame){
                 endGameTurn(player1,dice);
             }
+            if(endgame){
+                break;
+            }
             if (player2.getPoint()<40) {
                 playTurn(player2, dice);
             }
             if(player2Won&&!endgame){
                 endGameTurn(player2,dice);
             }
+            if(endgame){
+                break;
+            }
             if(player1.getPoint()>=40){
                 endGameTurn(player1,dice);
+            }
+            if(endgame){
+                break;
             }
             if (player2.getPoint()>=40){
                 endGameTurn(player2,dice);
