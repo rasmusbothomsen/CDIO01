@@ -22,7 +22,8 @@ private static Scanner scan =new Scanner(System.in);
         Player player2 = new Player(playerName2,2);
         Dice dice = new Dice();
 
-
+        player1.setPoint(37);
+        player2.setPoint(37);
         while (!endgame){
             if(player1.getPoint()<40) {
                 playTurn(player1, dice);
@@ -50,7 +51,16 @@ private static Scanner scan =new Scanner(System.in);
 
     private static void is40(Player a) {
         if (a.getPoint() < 40) is40=false;
-        else is40=true;
+        else {
+            if(a.getPlayerNumber()==1){
+                player1Won=true;
+                is40=true;
+            }
+            else if(a.getPlayerNumber()==2){
+                player2Won=true;
+                is40=true;
+            }
+        }
     }
     private static void printPoints(Player player){
         System.out.println(player.getName()+" Har nu "+player.getPoint()+" Points");
@@ -121,6 +131,11 @@ public static void playTurn(Player player,Dice dice){
             pressToPlay(player);
             playerThrow = dice.getDice();
             System.out.println("Du slog "+playerThrow[0]+" og "+playerThrow[1]);
+            if(lastThrow[0]==6&&lastThrow[1]==6){
+                System.out.println("Du har slået 2 6'ere i træk og vinder");
+                if(player.getPlayerNumber()==1) {player1Won=true; turnOver=true; endgame=true;}
+                else if(player.getPlayerNumber()==2) {player2Won=true; turnOver=true; endgame=true;}
+            }
             if (isSame(playerThrow) && playerThrow[0] == 1) {
                 System.out.println("Du har slået 2 1'ere og mister alle dine point");
                 player.setPoint(0);
@@ -129,11 +144,7 @@ public static void playTurn(Player player,Dice dice){
                 System.out.println("Hvis du slår 2 6'ere igen vinder du");
                 player.addPoint(playerThrow[0]+playerThrow[1]);
                 printPoints(player);
-                if(lastThrow[0]==6&&lastThrow[1]==6){
-                    System.out.println("Du har slået 2 6'ere i træk og vinder");
-                    if(player.getPlayerNumber()==1) {player1Won=true; turnOver=true; endgame=true;}
-                    else if(player.getPlayerNumber()==2) {player2Won=true; turnOver=true; endgame=true;}
-                }
+                lastThrow=playerThrow;
             }
             else if(isSame(playerThrow)){
                 player.addPoint(playerThrow[0]+playerThrow[1]);
@@ -160,6 +171,7 @@ public static void playTurn(Player player,Dice dice){
         }
 
 }
+
 
 
 
