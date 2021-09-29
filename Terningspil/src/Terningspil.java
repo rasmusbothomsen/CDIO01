@@ -90,15 +90,19 @@ public static void playTurn(Player player,Dice dice){
             pressToPlay(player);
             playerThrow = dice.getDice();
             if (isSame(playerThrow) && playerThrow[0] == 1) {
+                System.out.println("Du har slået 2 1'ere og mister alle dine point");
                 player.setPoint(0);
             }
             else if(isSame(playerThrow)){
                 player.addPoint(playerThrow[0]+playerThrow[1]);
+                System.out.println("Du har slået 2 ens og får en tur mere");
                 lastThrow=playerThrow;
             }
             else if(isSame(playerThrow)&&playerThrow[0]==6){
+                System.out.println("Hvis du slår 2 6'ere igen vinder du");
                 player.addPoint(playerThrow[0]+playerThrow[1]);
                 if(lastThrow[0]==6&&lastThrow[1]==6){
+                    System.out.println("Du har slået 2 6'ere i træk og vinder");
                     if(player.getPlayerNumber()==1) {player1Won=true; turnOver=true;}
                     else if(player.getPlayerNumber()==2) {player2Won=true; turnOver=true;}
                 }
