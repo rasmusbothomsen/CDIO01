@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 public class Terningspil {
 private static boolean is40;
 private static boolean endgame;
@@ -8,7 +7,6 @@ private static boolean player1Won;
 private static boolean player2Won;
 
 private static Scanner scan =new Scanner(System.in);
-
 
     public static void main(String[] args) {
         is40=false;
@@ -51,15 +49,11 @@ private static Scanner scan =new Scanner(System.in);
                 endGameTurn(player2,dice);
             }
         }
-
-
     }
 
     private static void startgame() {
         System.out.println("Velkommen til terningespillet");
-
-
-
+regler();
     }
     private static void is40(Player a) {
         if (a.getPoint() < 40) is40=false;
@@ -181,7 +175,6 @@ public static void playTurn(Player player,Dice dice){
 
             }
         }
-
 }
 
 
