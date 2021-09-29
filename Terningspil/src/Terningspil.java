@@ -23,6 +23,22 @@ private static Scanner scan =new Scanner(System.in);
         Dice dice = new Dice();
 
 
+        while (!endgame){
+            if(player1.getPoint()<40) {
+                playTurn(player1, dice);
+            }
+            else if(player1Won&&!endgame){
+                endGameTurn(player1,dice);
+            }
+            if (player2.getPoint()<40) {
+                playTurn(player2, dice);
+            }
+            else if(player2Won&&!endgame){
+                endGameTurn(player2,dice);
+            }
+        }
+
+
     }
 
     private static void startgame() {
@@ -36,7 +52,9 @@ private static Scanner scan =new Scanner(System.in);
         if (a.getPoint() < 40) is40=false;
         else is40=true;
     }
-
+    private static void printPoints(Player player){
+        System.out.println(player.getName()+" Har nu "+player.getPoint()+" Points");
+    }
 
     private static void regler() {
         System.out.println("--------------------------------------------------------------------------------------------");
@@ -54,29 +72,44 @@ private static Scanner scan =new Scanner(System.in);
         }else return false;
     }
 
-
-
-
-
-
-
 public static void pressToPlay(Player player){
     boolean isPressed=false;
+    boolean rightButton=false;
     while(!isPressed) {
         if (player.getPlayerNumber() == 1) {
             System.out.println(player.getName() + ", Tryk 1 for at kaste");
-            if(scan.nextInt()==1){
+            String buttonPressed = scan.nextLine();
+            if (buttonPressed.charAt(0)=='1') rightButton=true;
+            if(rightButton){
                 isPressed=true;
             }
         } else isPressed=false;
         if (player.getPlayerNumber() == 2) {
             System.out.println(player.getName() + ", Tryk 2 for at kaste");
-            if(scan.nextInt()==2){
+            String buttonPressed = scan.nextLine();
+            if (buttonPressed.charAt(0)=='2') rightButton=true;
+            if(rightButton){
                 isPressed=true;
             }
             else isPressed=false;
         }
     }
+}
+
+public static void endGameTurn(Player player, Dice dice){
+        int[] playerThrow;
+        pressToPlay(player);
+        playerThrow= dice.getDice();
+    System.out.println("Du slog "+playerThrow[0]+" og "+playerThrow[1]);
+    if(isSame(playerThrow)&&playerThrow[0]!=1){
+            endgame=true;
+        }else if(isSame(playerThrow)&&playerThrow[0]==1){
+            player.setPoint(0);
+            endgame=false;
+            if (player.getPlayerNumber()==1){
+                player1Won=false;
+            } else player2Won=false;
+        }
 }
 
 public static void playTurn(Player player,Dice dice){
@@ -87,39 +120,41 @@ public static void playTurn(Player player,Dice dice){
         while(!turnOver) {
             pressToPlay(player);
             playerThrow = dice.getDice();
+            System.out.println("Du slog "+playerThrow[0]+" og "+playerThrow[1]);
             if (isSame(playerThrow) && playerThrow[0] == 1) {
                 System.out.println("Du har slået 2 1'ere og mister alle dine point");
                 player.setPoint(0);
             }
-            else if(isSame(playerThrow)){
-                player.addPoint(playerThrow[0]+playerThrow[1]);
-                System.out.println("Du har slået 2 ens og får en tur mere");
-                lastThrow=playerThrow;
-            }
             else if(isSame(playerThrow)&&playerThrow[0]==6){
                 System.out.println("Hvis du slår 2 6'ere igen vinder du");
                 player.addPoint(playerThrow[0]+playerThrow[1]);
+                printPoints(player);
                 if(lastThrow[0]==6&&lastThrow[1]==6){
                     System.out.println("Du har slået 2 6'ere i træk og vinder");
-                    if(player.getPlayerNumber()==1) {player1Won=true; turnOver=true;}
-                    else if(player.getPlayerNumber()==2) {player2Won=true; turnOver=true;}
-                    if(player.getPlayerNumber()==1) {player1Won=true; turnOver=true; endgame=false;}
+                    if(player.getPlayerNumber()==1) {player1Won=true; turnOver=true; endgame=true;}
                     else if(player.getPlayerNumber()==2) {player2Won=true; turnOver=true; endgame=true;}
                 }
             }
+            else if(isSame(playerThrow)){
+                player.addPoint(playerThrow[0]+playerThrow[1]);
+                System.out.println("Du har slået 2 ens og får en tur mere");
+                printPoints(player);
+                lastThrow=playerThrow;
+            }
+
             if(!isSame(playerThrow)){
                 player.addPoint(playerThrow[0]+playerThrow[1]);
+                printPoints(player);
                 turnOver=true;
 
             }
             is40(player);
-            if(is40&&!turnOver){
-                if(player.getPlayerNumber()==1){
-                    player1Won=true;
-                    turnOver=true;
-                }
-                else player2Won=true;
-                turnOver=true;
+            if(is40&&!turnOver) {
+                if (player.getPlayerNumber() == 1) {
+                    player1Won = true;
+                    turnOver = true;
+                } else player2Won = true;
+                turnOver = true;
 
             }
         }
