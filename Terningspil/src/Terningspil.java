@@ -3,6 +3,10 @@ import java.util.Scanner;
 
 public class Terningspil {
 private static boolean is40;
+private static boolean endgame;
+private static boolean player1Won;
+private static boolean player2Won;
+
 private static Scanner scan =new Scanner(System.in);
 
 
@@ -19,6 +23,7 @@ private static Scanner scan =new Scanner(System.in);
         Dice dice = new Dice();
         dice.getDice();
         regler();
+
 
     }
 
@@ -45,11 +50,15 @@ private static Scanner scan =new Scanner(System.in);
         System.out.println("--------------------------------------------------------------------------------------------");
     }
 
+    private static boolean isSame(int[] diceThrow){
+        if(diceThrow[0]==diceThrow[1]){
+            return true;
+        }else return false;
+    }
 
 
-    // definerer spillerscore
-    int playerScore1 = 0;
-    int playerScore2 = 0;
+
+
 
 
 
@@ -70,6 +79,37 @@ public static void pressToPlay(Player player){
             else isPressed=false;
         }
     }
+}
+
+public static void playTurn(Player player,Dice dice){
+        boolean turnOver;
+        int[]playerThrow;
+        int[]lastThrow={0,0};
+        turnOver=false;
+        while(!turnOver) {
+            pressToPlay(player);
+            playerThrow = dice.getDice();
+            if (isSame(playerThrow) && playerThrow[0] == 1) {
+                player.setPoint(0);
+            }
+            else if(isSame(playerThrow)){
+                player.addPoint(playerThrow[0]+playerThrow[1]);
+                lastThrow=playerThrow;
+            }
+            else if(isSame(playerThrow)&&playerThrow[0]==6){
+                player.addPoint(playerThrow[0]+playerThrow[1]);
+                if(lastThrow[0]==6&&lastThrow[1]==6){
+                    if(player.getPlayerNumber()==1) {player1Won=true; turnOver=true;}
+                    else if(player.getPlayerNumber()==2) {player2Won=true; turnOver=true;}
+                }
+            }
+            if(!isSame(playerThrow)){
+                player.addPoint(playerThrow[0]+playerThrow[1]);
+                turnOver=true;
+
+            }
+        }
+
 }
 
 
