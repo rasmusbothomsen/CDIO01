@@ -21,8 +21,6 @@ private static Scanner scan =new Scanner(System.in);
         String playerName2= scan.nextLine();
         Player player2 = new Player(playerName2,2);
         Dice dice = new Dice();
-        dice.getDice();
-        regler();
 
 
     }
@@ -99,12 +97,22 @@ public static void playTurn(Player player,Dice dice){
             else if(isSame(playerThrow)&&playerThrow[0]==6){
                 player.addPoint(playerThrow[0]+playerThrow[1]);
                 if(lastThrow[0]==6&&lastThrow[1]==6){
-                    if(player.getPlayerNumber()==1) {player1Won=true; turnOver=true;}
-                    else if(player.getPlayerNumber()==2) {player2Won=true; turnOver=true;}
+                    if(player.getPlayerNumber()==1) {player1Won=true; turnOver=true; endgame=false;}
+                    else if(player.getPlayerNumber()==2) {player2Won=true; turnOver=true; endgame=true;}
                 }
             }
             if(!isSame(playerThrow)){
                 player.addPoint(playerThrow[0]+playerThrow[1]);
+                turnOver=true;
+
+            }
+            is40(player);
+            if(is40&&!turnOver){
+                if(player.getPlayerNumber()==1){
+                    player1Won=true;
+                    turnOver=true;
+                }
+                else player2Won=true;
                 turnOver=true;
 
             }
