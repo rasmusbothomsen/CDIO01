@@ -22,19 +22,25 @@ private static Scanner scan =new Scanner(System.in);
         Player player2 = new Player(playerName2,2);
         Dice dice = new Dice();
 
-        player1.setPoint(37);
         player2.setPoint(37);
+        player1.setPoint(37);
         while (!endgame){
             if(player1.getPoint()<40) {
                 playTurn(player1, dice);
             }
-            else if(player1Won&&!endgame){
+            if(player1Won&&!endgame){
                 endGameTurn(player1,dice);
             }
             if (player2.getPoint()<40) {
                 playTurn(player2, dice);
             }
-            else if(player2Won&&!endgame){
+            if(player2Won&&!endgame){
+                endGameTurn(player2,dice);
+            }
+            if(player1.getPoint()>=40){
+                endGameTurn(player1,dice);
+            }
+            if (player2.getPoint()>=40){
                 endGameTurn(player2,dice);
             }
         }
@@ -53,11 +59,9 @@ private static Scanner scan =new Scanner(System.in);
         if (a.getPoint() < 40) is40=false;
         else {
             if(a.getPlayerNumber()==1){
-                player1Won=true;
                 is40=true;
             }
             else if(a.getPlayerNumber()==2){
-                player2Won=true;
                 is40=true;
             }
         }
@@ -113,6 +117,10 @@ public static void endGameTurn(Player player, Dice dice){
     System.out.println("Du slog "+playerThrow[0]+" og "+playerThrow[1]);
     if(isSame(playerThrow)&&playerThrow[0]!=1){
             endgame=true;
+            if(player.getPlayerNumber()==1){
+                player2Won=false;
+            }
+            else player1Won=true;
         }else if(isSame(playerThrow)&&playerThrow[0]==1){
             player.setPoint(0);
             endgame=false;
