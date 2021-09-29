@@ -1,13 +1,13 @@
 
     public class Player {
-        private String name;
+        private final String name;
         private int point;
 
         public int getPlayerNumber() {
             return playerNumber;
         }
 
-        private int playerNumber;
+        private final int playerNumber;
 
 
 

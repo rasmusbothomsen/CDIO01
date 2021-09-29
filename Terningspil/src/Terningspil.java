@@ -61,7 +61,6 @@ private static Scanner scan =new Scanner(System.in);
 
 
     }
-
     private static void is40(Player a) {
         if (a.getPoint() < 40) is40=false;
         else {
@@ -76,7 +75,6 @@ private static Scanner scan =new Scanner(System.in);
     private static void printPoints(Player player){
         System.out.println(player.getName()+" Har nu "+player.getPoint()+" Points");
     }
-
     private static void regler() {
         System.out.println("--------------------------------------------------------------------------------------------");
         System.out.println("Man vinder ved at opnå 40 point og efterfølgende slå to ens");
@@ -86,7 +84,6 @@ private static Scanner scan =new Scanner(System.in);
         System.out.println("Hvis man slår to 1'ere efter man har rundet de 40 point starter man forfra");
         System.out.println("--------------------------------------------------------------------------------------------");
     }
-
     private static boolean isSame(int[] diceThrow){
         if(diceThrow[0]==diceThrow[1]){
             return true;
