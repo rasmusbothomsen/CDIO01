@@ -1,7 +1,7 @@
 import java.util.Random;
 
 public class DiceTest {
-    private static void main(String[]args){
+    public static void main(String[] args){
         int dice2;
         int dice1;
         int count=0;
