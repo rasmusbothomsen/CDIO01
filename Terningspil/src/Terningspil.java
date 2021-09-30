@@ -1,5 +1,4 @@
-import java.time.Duration;
-import java.time.Instant;
+
 import java.util.Scanner;
 
 public class Terningspil {
@@ -8,7 +7,7 @@ private static boolean endgame;
 private static boolean player1Won;
 private static boolean player2Won;
 
-private static Scanner scan =new Scanner(System.in);
+private static final Scanner scan =new Scanner(System.in);
 
     public static void main(String[] args) {
         is40=false;
@@ -87,9 +86,7 @@ regler();
         System.out.println("--------------------------------------------------------------------------------------------");
     }
     private static boolean isSame(int[] diceThrow){
-        if(diceThrow[0]==diceThrow[1]){
-            return true;
-        }else return false;
+        return diceThrow[0] == diceThrow[1];
     }
 
 public static void pressToPlay(Player player){
@@ -103,7 +100,7 @@ public static void pressToPlay(Player player){
             if(rightButton){
                 isPressed=true;
             }
-        } else isPressed=false;
+        }
         if (player.getPlayerNumber() == 2) {
             System.out.println(player.getName() + ", Tryk 2 for at kaste");
             String buttonPressed = scan.nextLine();
@@ -111,7 +108,6 @@ public static void pressToPlay(Player player){
             if(rightButton){
                 isPressed=true;
             }
-            else isPressed=false;
         }
     }
 }
@@ -177,7 +173,6 @@ public static void playTurn(Player player,Dice dice){
             if(is40&&!turnOver) {
                 if (player.getPlayerNumber() == 1) {
                     player1Won = true;
-                    turnOver = true;
                 } else player2Won = true;
                 turnOver = true;
 
