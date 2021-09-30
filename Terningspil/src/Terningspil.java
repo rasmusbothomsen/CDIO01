@@ -20,7 +20,6 @@ private static final Scanner scan =new Scanner(System.in);
         String playerName2= scan.nextLine();
         Player player2 = new Player(playerName2,2);
         Dice dice = new Dice();
-        player2.setPoint(37);        player1.setPoint(37);
 
         while (!endgame){
             if(player1.getPoint()<40) {
@@ -133,16 +132,15 @@ public static void endGameTurn(Player player, Dice dice){
     if(isSame(playerThrow)&&playerThrow[0]!=1){
             endgame=true;
         switch (player.getPlayerNumber()) {
-            case 1 -> {
+            case 1:
                 player1Won = true;
                 player2Won = false;
-            }
-            case 2 -> {
+                break;
+            case 2:
                 player2Won = true;
                 player1Won = false;
-            }
-            default -> {
-            }
+                break;
+            default: break;
         }
 
         }else if(isSame(playerThrow)&&playerThrow[0]==1){
@@ -151,16 +149,15 @@ public static void endGameTurn(Player player, Dice dice){
             endgame=false;
             playTurn(player,dice);
         switch (player.getPlayerNumber()) {
-            case 1 -> {
+            case 1:
                 player1Won = false;
                 player2Won = true;
-            }
-            case 2 -> {
+                break;
+            case 2:
                 player2Won = false;
                 player1Won = true;
-            }
-            default -> {
-            }
+                break;
+            default: break;
         }
         }
 }
