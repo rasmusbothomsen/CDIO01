@@ -51,6 +51,12 @@ private static Scanner scan =new Scanner(System.in);
                 endGameTurn(player2,dice);
             }
         }
+        whoWon(player1,player2);
+        System.out.println("Vil i spille igen? y/n");
+        String playAgain = scan.nextLine();
+        if (playAgain.charAt(0)=='y'){
+            main(null);
+        }
     }
 
     private static void startgame() {
@@ -177,6 +183,16 @@ public static void playTurn(Player player,Dice dice){
 
             }
         }
+}
+
+public static void whoWon(Player a, Player b){
+        if(player1Won){
+            System.out.println("Tillykke til "+a.getName()+". du har vundet");
+        }
+        if(player2Won){
+            System.out.println("Tillykke til "+b.getName()+". du har vundet");
+        }
+        else System.out.println("Noget gik galt");
 }
 
 
