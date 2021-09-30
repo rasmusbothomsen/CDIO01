@@ -40,15 +40,6 @@ private static final Scanner scan =new Scanner(System.in);
             if(endgame){
                 break;
             }
-            if(player1Won){
-                endGameTurn(player1,dice);
-            }
-            if(endgame){
-                break;
-            }
-            if (player2Won){
-                endGameTurn(player2,dice);
-            }
             if(!endgame) {
                 is40(player1);
                 is40(player2);
