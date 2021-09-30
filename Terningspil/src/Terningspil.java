@@ -1,5 +1,4 @@
-import java.time.Duration;
-import java.time.Instant;
+
 import java.util.Scanner;
 
 public class Terningspil {
@@ -8,7 +7,7 @@ private static boolean endgame;
 private static boolean player1Won;
 private static boolean player2Won;
 
-private static Scanner scan =new Scanner(System.in);
+private static final Scanner scan =new Scanner(System.in);
 
     public static void main(String[] args) {
         is40=false;
@@ -41,15 +40,26 @@ private static Scanner scan =new Scanner(System.in);
             if(endgame){
                 break;
             }
-            if(player1.getPoint()>=40){
+            if(player1Won){
                 endGameTurn(player1,dice);
             }
             if(endgame){
                 break;
             }
-            if (player2.getPoint()>=40){
+            if (player2Won){
                 endGameTurn(player2,dice);
             }
+            if(!endgame) {
+                is40(player1);
+                is40(player2);
+            }
+        }
+        whoWon(player1,player2);
+        System.out.println("Vil i spille igen? y/n");
+        String playAgain = scan.nextLine();
+        if (playAgain.charAt(0)=='y'){
+            restartGame();
+            main(null);
         }
     }
 
@@ -62,14 +72,16 @@ regler();
         else {
             if(a.getPlayerNumber()==1){
                 is40=true;
+                player1Won=true;
             }
             else if(a.getPlayerNumber()==2){
                 is40=true;
+                player2Won=true;
             }
         }
     }
     private static void printPoints(Player player){
-        System.out.println(player.getName()+" Har nu "+player.getPoint()+" Points");
+        System.out.println(player.getName()+" Har nu "+player.getPoint()+" Points\n");
     }
     private static void regler() {
         System.out.println("--------------------------------------------------------------------------------------------");
@@ -81,11 +93,14 @@ regler();
         System.out.println("--------------------------------------------------------------------------------------------");
     }
     private static boolean isSame(int[] diceThrow){
-        if(diceThrow[0]==diceThrow[1]){
-            return true;
-        }else return false;
+        return diceThrow[0] == diceThrow[1];
     }
-
+    public static void restartGame(){
+        player2Won=false;
+        player1Won=false;
+        endgame=false;
+        is40=false;
+    }
 public static void pressToPlay(Player player){
     boolean isPressed=false;
     boolean rightButton=false;
@@ -97,7 +112,7 @@ public static void pressToPlay(Player player){
             if(rightButton){
                 isPressed=true;
             }
-        } else isPressed=false;
+        }
         if (player.getPlayerNumber() == 2) {
             System.out.println(player.getName() + ", Tryk 2 for at kaste");
             String buttonPressed = scan.nextLine();
@@ -105,7 +120,6 @@ public static void pressToPlay(Player player){
             if(rightButton){
                 isPressed=true;
             }
-            else isPressed=false;
         }
     }
 }
@@ -117,16 +131,34 @@ public static void endGameTurn(Player player, Dice dice){
     System.out.println("Du slog "+playerThrow[0]+" og "+playerThrow[1]);
     if(isSame(playerThrow)&&playerThrow[0]!=1){
             endgame=true;
-            if(player.getPlayerNumber()==1){
-                player2Won=false;
-            }
-            else player1Won=true;
+        switch (player.getPlayerNumber()) {
+            case 1:
+                player1Won = true;
+                player2Won = false;
+                break;
+            case 2:
+                player2Won = true;
+                player1Won = false;
+                break;
+            default: break;
+        }
+
         }else if(isSame(playerThrow)&&playerThrow[0]==1){
+            System.out.println("Du slog desværre 2 en'ere. Du har nu 0 point\n Du får en ekstra tur");
             player.setPoint(0);
             endgame=false;
-            if (player.getPlayerNumber()==1){
-                player1Won=false;
-            } else player2Won=false;
+            playTurn(player,dice);
+        switch (player.getPlayerNumber()) {
+            case 1:
+                player1Won = false;
+                player2Won = true;
+                break;
+            case 2:
+                player2Won = false;
+                player1Won = true;
+                break;
+            default: break;
+        }
         }
 }
 
@@ -167,16 +199,24 @@ public static void playTurn(Player player,Dice dice){
                 turnOver=true;
 
             }
-            is40(player);
-            if(is40&&!turnOver) {
+
+            if(player.getPoint()>=40&&!turnOver) {
                 if (player.getPlayerNumber() == 1) {
                     player1Won = true;
-                    turnOver = true;
                 } else player2Won = true;
                 turnOver = true;
 
             }
         }
+}
+
+public static void whoWon(Player a, Player b){
+        if(player1Won){
+            System.out.println("Tillykke til "+a.getName()+". du har vundet");
+        }
+        if(player2Won){
+            System.out.println("Tillykke til "+b.getName()+". du har vundet");
+        } if(!player2Won&&!player1Won) System.out.println("Noget gik galt");
 }
 
 
