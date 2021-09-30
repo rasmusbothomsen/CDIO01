@@ -132,37 +132,35 @@ public static void endGameTurn(Player player, Dice dice){
     System.out.println("Du slog "+playerThrow[0]+" og "+playerThrow[1]);
     if(isSame(playerThrow)&&playerThrow[0]!=1){
             endgame=true;
-            switch (player.getPlayerNumber()){
-                case 1:
-                    player1Won=true;
-                    player2Won=false;
-
-                    break;
-                case 2:
-                    player2Won=true;
-                    player1Won=false;
-                    break;
-                default:
-                    break;
+        switch (player.getPlayerNumber()) {
+            case 1 -> {
+                player1Won = true;
+                player2Won = false;
             }
+            case 2 -> {
+                player2Won = true;
+                player1Won = false;
+            }
+            default -> {
+            }
+        }
 
         }else if(isSame(playerThrow)&&playerThrow[0]==1){
             System.out.println("Du slog desværre 2 en'ere. Du har nu 0 point\n Du får en ekstra tur");
             player.setPoint(0);
             endgame=false;
             playTurn(player,dice);
-        switch (player.getPlayerNumber()){
-            case 1:
-                player1Won=false;
-                player2Won=true;
-
-                break;
-            case 2:
-                player2Won=false;
-                player1Won=true;
-                break;
-            default:
-                break;
+        switch (player.getPlayerNumber()) {
+            case 1 -> {
+                player1Won = false;
+                player2Won = true;
+            }
+            case 2 -> {
+                player2Won = false;
+                player1Won = true;
+            }
+            default -> {
+            }
         }
         }
 }
