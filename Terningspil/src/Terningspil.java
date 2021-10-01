@@ -132,16 +132,19 @@ public static void endGameTurn(Player player, Dice dice){
 
 public static void playTurn(Player player,Dice dice){
         boolean turnOver;
-        int[]playerThrow;
+        int[]playerThrow={0,0};
         int[]lastThrow={0,0};
         turnOver=false;
         while(!turnOver) {
             pressToPlay(player);
-            Instant start = Instant.now();
-            playerThrow = dice.getDice();
-            System.out.println("Du slog "+playerThrow[0]+" og "+playerThrow[1]);
-            Instant end = Instant.now();
-            System.out.println(Duration.between(start, end));
+            Long startTime = System.currentTimeMillis();
+            for(int i =0;i<500;i++) {
+                playerThrow = dice.getDice();
+                System.out.println("Du slog " + playerThrow[0] + " og " + playerThrow[1]);
+                long endTime = System.currentTimeMillis();
+                System.out.println(startTime + "\t" + endTime);
+                System.out.println("That took " + (endTime - startTime) + " milliseconds");
+            }
             if(lastThrow[0]==6&&lastThrow[1]==6&&playerThrow[0]==6&&playerThrow[1]==6){
                 System.out.println("Du har slået 2 6'ere i træk og vinder");
                 if(player.getPlayerNumber()==1) {player1Won=true; turnOver=true; endgame=true;}

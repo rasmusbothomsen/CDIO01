@@ -1,0 +1,1515 @@
+vC:\Users\s211708\.jdks\corretto-1.8.0_302\bin\java.exe "-javaagent:C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2021.2\lib\idea_rt.jar=64002:C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2021.2\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\s211708\.jdks\corretto-1.8.0_302\jre\lib\charsets.jar;C:\Users\s211708\.jdks\corretto-1.8.0_302\jre\lib\ext\access-bridge-64.jar;C:\Users\s211708\.jdks\corretto-1.8.0_302\jre\lib\ext\cldrdata.jar;C:\Users\s211708\.jdks\corretto-1.8.0_302\jre\lib\ext\dnsns.jar;C:\Users\s211708\.jdks\corretto-1.8.0_302\jre\lib\ext\jaccess.jar;C:\Users\s211708\.jdks\corretto-1.8.0_302\jre\lib\ext\jfxrt.jar;C:\Users\s211708\.jdks\corretto-1.8.0_302\jre\lib\ext\localedata.jar;C:\Users\s211708\.jdks\corretto-1.8.0_302\jre\lib\ext\nashorn.jar;C:\Users\s211708\.jdks\corretto-1.8.0_302\jre\lib\ext\sunec.jar;C:\Users\s211708\.jdks\corretto-1.8.0_302\jre\lib\ext\sunjce_provider.jar;C:\Users\s211708\.jdks\corretto-1.8.0_302\jre\lib\ext\sunmscapi.jar;C:\Users\s211708\.jdks\corretto-1.8.0_302\jre\lib\ext\sunpkcs11.jar;C:\Users\s211708\.jdks\corretto-1.8.0_302\jre\lib\ext\zipfs.jar;C:\Users\s211708\.jdks\corretto-1.8.0_302\jre\lib\jce.jar;C:\Users\s211708\.jdks\corretto-1.8.0_302\jre\lib\jfr.jar;C:\Users\s211708\.jdks\corretto-1.8.0_302\jre\lib\jfxswt.jar;C:\Users\s211708\.jdks\corretto-1.8.0_302\jre\lib\jsse.jar;C:\Users\s211708\.jdks\corretto-1.8.0_302\jre\lib\management-agent.jar;C:\Users\s211708\.jdks\corretto-1.8.0_302\jre\lib\resources.jar;C:\Users\s211708\.jdks\corretto-1.8.0_302\jre\lib\rt.jar;C:\Users\s211708\IdeaProjects\CDIO01\out\production\Terningspil Terningspil
+Velkommen til terningespillet
+--------------------------------------------------------------------------------------------
+Man vinder ved at opnå 40 point og efterfølgende slå to ens
+Når man slår to ens får vedkommende en ekstra tur
+Ved slag af to 1'ere mister vedkommende alle deres point - dog gælder ovenstående stadig
+Det er også muligt at vinde ved at slå to 6'ere lige efter hinanden
+Hvis man slår to 1'ere efter man har rundet de 40 point starter man forfra
+--------------------------------------------------------------------------------------------
+Spiller 1 indtast dit navn: rasmus
+Spiller 2 indtast dit navn: thomsen
+rasmus, Tryk 1 for at kaste
+1
+Du slog 5 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 6 og 6
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 3
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 4
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 5
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 5 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 2 og 1
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 1 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 4 og 2
+1633077075583	1633077075583
+That took 0 milliseconds
+Du slog 3 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 6
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 6
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 6
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 1 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 6
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 6
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 1 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 1 og 6
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 1 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 6
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 6
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 1 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 1 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 1 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 1 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 1 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 1 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 6
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 6
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 6
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 1 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 1 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 1 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 6
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 6
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 6
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 6
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 1 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 1 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 1 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 1 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 1 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 1 og 6
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 1 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 6
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 1 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 1 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 1 og 6
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 1 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 6
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 1 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 4 og 3
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 5 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 6
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 1
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 5
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 2 og 4
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 3 og 6
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 2
+1633077075583	1633077075599
+That took 16 milliseconds
+Du slog 6 og 1
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 5 og 3
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 1 og 3
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 2 og 3
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 3 og 1
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 1 og 5
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 3 og 1
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 2 og 3
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 4 og 5
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 3 og 3
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 1 og 6
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 3 og 1
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 1 og 5
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 4 og 3
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 2 og 2
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 3 og 5
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 5 og 4
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 1 og 6
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 3 og 5
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 1 og 1
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 3 og 5
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 5 og 6
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 2 og 1
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 4 og 3
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 1 og 6
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 6 og 6
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 1 og 4
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 5 og 6
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 3 og 1
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 1 og 4
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 6 og 5
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 5 og 2
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 1 og 5
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 6 og 6
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 1 og 6
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 3 og 3
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 6 og 5
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 1 og 3
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 6 og 2
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 5 og 4
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 1 og 5
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 3 og 1
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 3 og 1
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 4 og 1
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 1 og 2
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 5 og 3
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 6 og 3
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 6 og 1
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 2 og 4
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 2 og 5
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 1 og 2
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 6 og 3
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 2 og 3
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 4 og 2
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 3 og 5
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 5 og 1
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 1 og 3
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 2 og 6
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 5 og 4
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 5 og 3
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 4 og 1
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 2 og 4
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 4 og 1
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 6 og 1
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 5 og 6
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 5 og 5
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 5 og 3
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 2 og 1
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 6 og 3
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 5 og 4
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 6 og 4
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 5 og 6
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 6 og 4
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 3 og 5
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 3 og 2
+1633077075583	1633077075614
+That took 31 milliseconds
+Du slog 1 og 2
+1633077075583	1633077075614
+That took 31 milliseconds
+rasmus Har nu 3 Points
+thomsen, Tryk 2 for at kaste
